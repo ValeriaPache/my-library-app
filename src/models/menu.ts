@@ -29,7 +29,7 @@ export class Menu{
                 this.libreria.mostrarLibros();
                 break;
             case 2:
-                const nuevoLibro = new Libro("Nuevo Título", "Nuevo Autor", "Género", "Idioma", "Precio", "Formato", "ISBN", "Descripción", "Estado", "Ubicación", new Date(), "Editorial", 300, "15x20", "500g",20);
+                const nuevoLibro = new Libro("Nuevo Título", "Nuevo Autor", "Género", "Idioma", "5000", "Formato", "ISBN", "Descripción", "Estado", "Ubicación", new Date(), "Editorial", 300, "15x20", "500g",20);
                 this.libreria.añadirLibro(nuevoLibro);
                 break;
             case 3:

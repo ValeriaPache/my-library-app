@@ -23,7 +23,7 @@ export class Libro {
         autor: string,
         genero: string,
         idioma: string,
-        precio: string,
+        precio:string,
         formato: string,
         isbn: string,
         descripcion: string,
